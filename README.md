@@ -1,1 +1,0 @@
-# PageSpider - Website scrapper
