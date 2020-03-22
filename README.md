@@ -27,7 +27,7 @@ reading https://en.wikipedia.org/wiki/Guido_van_Rossum
 reading https://en.wikipedia.org/wiki/Benevolent_dictator_for_life
 ```
 
-## Making the script executable
+## Using shebang in the called script
 
 For this one, one has to make the script executable first.
 This can be done by issuing the following command,
