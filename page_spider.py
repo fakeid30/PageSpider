@@ -4,14 +4,15 @@ import os
 import argparse
 from utilities import url_utilities, database_utilities
 
-website_input = int(input("How many website you want to parse?:"))
+website_input = int(input("How many websites you want to parse?:"))
 for i in range(website_input):
-    if (website_input> 0) and (website_input != 0):
+    if (website_input > 0) and (website_input != 0):
         print("Enter your number " + str(website_input) + " website:")
-        website_input -=1
-    url_list_file= input()
+        website_input -= 1
+    url_list_file = input()
     with open('input.txt', 'w') as f:
         f.write(url_list_file)
+
 
 def main(database: str, url_list_file: str):
     big_word_list = []
