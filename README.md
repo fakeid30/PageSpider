@@ -1,8 +1,19 @@
 # PageSpider - A scrapper of website
 
-# Tutorial
+## Components
 
-There are two ways to run a python script. 
+This program has two components.
+One is ```input.txt``` and other is ```word.db```.
+
+Put the websites you want to parse in ```input.txt``` and run the program. The program will count the words and save it in a sqlite3 database named ```word.db```. The database will look like this :
+
+![Capture1](https://user-images.githubusercontent.com/61817579/77295014-61256880-6d0f-11ea-88e4-6445f9f5a8ca.PNG)
+
+You can sort ascending or descending here.
+
+## Tutorial
+
+There are two ways to run a python script.
 One requires the script to have executable permission by the executing user.
 The other one doesn't.
 We are going to look at the second method first.
