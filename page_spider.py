@@ -5,9 +5,9 @@ import argparse
 from utilities import url_utilities, database_utilities
 
 website_input = int(input("How many websites you want to parse?:"))
-for i in range(website_input):
+for i in range(1, website_input + 1):
     if (website_input > 0) and (website_input != 0):
-        print("Enter your number " + str(website_input) + " website:")
+        print("Enter your number " + str(i) + " website:")
         website_input -= 1
     url_list_file = input()
     with open('input.txt', 'w') as f:
