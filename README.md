@@ -7,7 +7,9 @@ One is ```input.txt``` and other is ```word.db```.
 
 Put the websites you want to parse in ```input.txt``` and run the program. The program will count the words and save it in a sqlite3 database named ```word.db```. The database will look like this :
 
+![Capture1](https://user-images.githubusercontent.com/61817579/77295014-61256880-6d0f-11ea-88e4-6445f9f5a8ca.PNG)
 
+You can sort ascending or descending here.
 
 ## Tutorial
 
