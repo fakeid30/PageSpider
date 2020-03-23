@@ -14,7 +14,8 @@ def main(database: str, url_list_file: str):
         words = url_utilities.scrape_page(page_contents=page_content)
         big_word_list.extend(words)
 
-    os.chdir(os.path.dirname(__file__))
+    abs_file_path = os.path.abspath(__file__)
+    os.chdir(os.path.dirname(abs_file_path))
     path = os.path.join(os.getcwd(), "words.db")
     database_utilities.create_database(database_path=path)
     database_utilities.save_words_to_database(database_path=path, words_list=big_word_list)
